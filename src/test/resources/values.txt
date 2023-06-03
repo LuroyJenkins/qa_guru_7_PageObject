@@ -1,0 +1,10 @@
+Student Name:Nikita;Starkov
+Student Email:nikita@starkov.ru
+Gender:Male
+Mobile:7992233445
+Date of Birth:28 November,1999
+Subjects:Maths
+Hobbies:Sports;Reading
+Picture:corgi.jpg
+Address:Simpson, 3730 Thompson Drive, 26435
+State and City:NCR Delhi
