@@ -103,14 +103,12 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage submitBtnClick() {
+    public void submitBtnClick() {
         submitBtn.click();
-        return this;
     }
 
-    public RegistrationPage resultCheck(Map<String, String[]> tableMatches) {
+    public void resultCheck(Map<String, String[]> tableMatches) {
         tableResult.tableLinesCheck(tableMatches);
-        return this;
     }
 
 }
