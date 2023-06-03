@@ -1,10 +1,12 @@
-package helpers;
+package data;
+
+import helpers.ReadFile;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public abstract class TestData {
+public abstract class TestDataRegistration {
     public static Map<String, String[]> dataFromFile = ReadFile.
             readFile("src/test/resources/values.txt");
     public static List<String> keysList = new ArrayList<>(dataFromFile.keySet());

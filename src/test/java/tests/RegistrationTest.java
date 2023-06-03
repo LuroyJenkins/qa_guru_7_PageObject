@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
-import static helpers.TestData.*;
+import static data.TestDataRegistration.*;
 
 public class RegistrationTest extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();

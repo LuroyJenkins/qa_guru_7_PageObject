@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public abstract class ReadFile {
-    protected static LinkedHashMap<String, String[]> readFile(String pathToFile) {
+    public static LinkedHashMap<String, String[]> readFile(String pathToFile) {
         LinkedHashMap<String, String[]> fileMap = new LinkedHashMap<>();
         Scanner scanner = null;
         try {
